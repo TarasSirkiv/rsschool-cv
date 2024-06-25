@@ -1,5 +1,7 @@
 ## [**rsschool-cv**](https://TarasSirkiv.github.io/rsschool-cv/cv)
+
 # **Taras Sirkiv**
+
 ## **Junior-frontend-developer**
 ## Contact information:
 **Phone:** +38 0936205313
