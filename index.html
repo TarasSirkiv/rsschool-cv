@@ -4,112 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taras Sirkiv</title>
-
-    <link rel="stylesheet" href="style.css">
- 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">    
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <head>
-        <nav>
-            <ul>
-                <li><a href=""></a>Contact information</li>
-                <li><a href=""></a>Skills</li>
-                <li><a href=""></a>Languages</li>
-                <li><a href=""></a>About Myself</li>                
-                <li><a href=""></a>Code example</li>
-                <li><a href=""></a>Experience</li>
-                <li><a href=""></a>Education</li>
+    <header class="head-conteiner">
+        <nav class="meny-nav">
+            <ul class="meny-btm">
+                <li><a class="btm" href="#Contact-information">Contact information</a></li>
+                <li><a class="btm" href="#Skills">Skills</a></li>
+                <li><a class="btm" href="#Languages">Languages</a></li>
+                <li><a class="btm" href="#About-Myself">About Myself</a></li>                
+                <li><a class="btm" href="#Code-example">Code example</a></li>
+                <li><a class="btm" href="#Experience">Experience</a></li>
+                <li><a class="btm" href="#Education">Education</a></li>
             </ul>
         </nav>
-    </head>
-    <main>
-        <div>
-            <img src="img/123.jpg" alt="my photo" width="350">
-            <h1>Taras Sirkiv</h1>
-            <h2>Junior-frontend-developer</h2>
-        </div>
-        <aside>
-            <div>
-                <section>
-                    <h3>Contact information</h3>
-                    <p>Phone:<a href="tel:+123-456-7890">+123-456-7890</a></p>
-                    <p>E-mail:<a href="mailto:hello@google.com">hello@google.com</a></p>
-                    <p>88 Anywhere St., Los Angeles</p>
-                </section>
-                <section>
-                    <h3>Skills</h3>
-                    <div>
-                        <ul>
-                            <li>HTML, CSS</li>
-                            <li>JavaScript</li>
-                            <li>Git, GitHub</li>
-                            <li>VS Code</li>
-                        </ul>
-                    </div>
-                </section>
-                <section>
-                    <h3>Languages</h3>
-                    <div>
-                        <ul>
-                            <li>Ukrainian - Native</li>
-                            <li>English - A1</li>
-                        </ul>
-                    </div>
-                </section>
-            </div>
+    </header>
+    <main class="main-conteiner">
+        <aside class="aside-conteiner"> 
+            <img class="my-photo" src="img/123.jpg" alt="my photo">
+            <section>
+                <h3 id="Contact-information">Contact information</h3>
+                <p class="contact-text">Phone:<a href="tel:+123-456-7890">+123-456-7890</a></p>
+                <p class="contact-text">E-mail:<a href="mailto:hello@google.com">hello@google.com</a></p>
+                <p class="contact-text">88 Anywhere St., Los Angeles</p>
+            </section>
+            <section>
+                <h3 id="Skills">Skills</h3>                    
+                    <ul>
+                        <li class="aside-text">HTML, CSS</li>
+                        <li class="aside-text">JavaScript</li>
+                        <li class="aside-text">Git, GitHub</li>
+                        <li class="aside-text">VS Code</li>
+                    </ul>                    
+            </section>
+            <section>
+                <h3 id="Languages">Languages</h3>                    
+                    <ul>
+                        <li class="aside-text">Ukrainian - Native</li>
+                        <li class="aside-text">English - A1</li>
+                    </ul>                    
+            </section>            
         </aside>
-        <div>
-            <div>
-                <section>
-                    <div>
-                        <h3>About Myself</h3>
-                        <p>I am responsible for any matter, I am able to make independent decisions.I am ready to learn new things and have a great
-                        desire to work and develop.</p>
-                    </div>
+        <div class="main-cont-about">
+            <div class="name">
+                <h1>Taras Sirkiv</h1>
+                <h2>Junior-frontend-developer</h2>
+            </div>
+            <div class="main-cont-about-my">
+                <section>                    
+                        <h3 id="About-Myself">About Myself</h3>
+                        <p class="text-about-myself">I am responsible for any matter, I am able to make independent decisions.I am ready to learn new things and have a great
+                        desire to work and develop. I am a motivated and detail-oriented professional with a passion for front-end development. With a background in
+                        freelance work and management, I have developed strong skills in HTML, CSS, and JavaScript. I thrive on creating
+                        user-friendly web applications and am committed to continuous learning and improvement. I am seeking a position where I
+                        can apply my skills and grow as a developer.</p>                    
                 </section>
-                <section>
-                    <div>
-                        <h3>Code example</h3>
-                        <pre>
+                <section>                    
+                    <h3 id="Code-example">Code example</h3>
+                        <pre class="scrolling-code">
                             <code>
-                                function changeText() {
-                                var paragraph = document.querySelector('p');
-                                paragraph.textContent = 'Текст был изменен!';
-                                }
+                            function changeText() {
+                            var paragraph = document.querySelector('p');
+                            paragraph.textContent = 'Текст был изменен!';
+                            }
                             </code>
-                        </pre>
-                    </div>
+                        </pre>             
                 </section>
-                <section>
-                    <div>
-                        <h3>Experience</h3>
-                        <h4>Front-End Developer Freelance</h4>
-                        <p>September 2019 - up to now</p>
-                        <h4>Manager Banderogusak & Co.</h4>
-                        <p>March 2015 - October 2018</p>
-                    </div>
+                <section>                    
+                    <h3 id="Experience">Experience</h3>
+                        <article>
+                            <h4>Front-End Developer Freelance</h4>
+                            <p class="expiriense-time">September 2019 - up to now</p>
+                        </article>
+                        <article>
+                            <h4>Manager Banderogusak & Co.</h4>
+                            <p class="expiriense-time">March 2015 - October 2018</p>
+                        </article>
                 </section>
-                <section>
-                    <div>
-                        <h3>Education</h3>
-                        <h4>National University of Management</h4>
-                        <h5>Management</h5>
-                        <p>September 2009 - June 2014</p>
-                    </div>
+                <section>                    
+                    <h3 id="Education">Education</h3>
+                        <article>
+                            <h4>National University of Management</h4>
+                            <h5>Management</h5>
+                            <p class="Education-time">September 2009 - June 2014</p>
+                        </article>
                 </section>
             </div>
         </div>
     </main>
-    <footer>
-        <div>
-            <p><a href="https://github.com/TarasSirkiv/rsschool-cv">My GitHub</a></p>
-        </div>
-        <div>
-            <p>2024</p>
-        </div>
-        <div>
+    <footer>        
+        <a class="border" href="https://github.com/TarasSirkiv/rsschool-cv">My GitHub</a>        
+        <p class="border">2024</p>        
+        <div class="border">
             <img src="https://rs.school/images/rs_school_js.svg" alt="Logo">
-            <p><a href="https://rs.school/courses/javascript-ru">RSschool</a></p>
+            <a href="https://rs.school/courses/javascript-ru" target="_blank">RSschool</a>
         </div>
     </footer>
 </body>
