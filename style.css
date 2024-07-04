@@ -161,13 +161,10 @@ footer a {
 }
 
 .border {
-    font-weight: bold;
-    /* border: 5px solid transparent;
-    width: 200px;
-    height: 30px;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 255, 255); */
+    font-weight: bold;    
+}
+
+.border a img {
+    height: 52px;
+    width: 52px;
 }
